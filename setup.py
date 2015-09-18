@@ -33,6 +33,6 @@ setup(
     ],
     py_modules=['gcs_oauth2_boto_env_plugin'],
     install_requires=[
-        'gcs_oauth2_boto_plugin>=1.8'
+        'gcs_oauth2_boto_plugin==1.8'
     ],
 )
