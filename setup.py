@@ -12,7 +12,7 @@ with open('README.rst', 'r') as f:
 
 setup(
     name='gcs-oauth2-boto-env-plugin',
-    version='0.1.1',
+    version='0.1.2',
     description='Google Storage auth2 plugin with support for passing service key via environment',
     long_description=readme,
     keywords='oauth2 gcs s3 boto plugin docker',
