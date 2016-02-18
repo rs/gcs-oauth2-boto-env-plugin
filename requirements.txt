@@ -1,0 +1,2 @@
+oauth2client==1.5.2
+gcs_oauth2_boto_plugin==1.8
