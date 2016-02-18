@@ -33,6 +33,8 @@ setup(
     ],
     py_modules=['gcs_oauth2_boto_env_plugin'],
     install_requires=[
-        'gcs_oauth2_boto_plugin==1.8'
+        'gcs_oauth2_boto_plugin==1.8',
+        # https://github.com/google/oauth2client/issues/401
+        'oauth2client==1.5.2',
     ],
 )
